@@ -207,3 +207,17 @@ button:hover{
 button:focus{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+
+@media (max-width: 376px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 350px;
+        margin: auto;
+
+        /* box-shadow: 20px 80px 150px rgb(180, 180, 180); */
+        border-radius: 30px;
+    
+    }
+}
