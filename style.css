@@ -113,7 +113,7 @@ body {
 .summary-field {
     height: 50px;
     width: 80%;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,38 +124,38 @@ body {
 
 .reaction {
     background-color: hsl(0, 100%, 67%, 0.1);
-    
+
 }
 
-.reaction > .summary-name > h4 {
+.reaction>.summary-name>h4 {
     color: hsl(0, 100%, 67%);
-    
+
 }
 
 .memory {
     background-color: hsla(39, 100%, 56%, 0.1);
 }
 
-.memory > .summary-name > h4 {
+.memory>.summary-name>h4 {
     color: hsla(39, 100%, 56%);
-    
+
 }
 
 .verbal {
     background-color: hsl(166, 100%, 37%, 0.1);
 }
 
-.verbal > .summary-name > h4 {
+.verbal>.summary-name>h4 {
     color: hsl(166, 100%, 37%);
-    
+
 }
 
 .visual {
     background-color: hsl(234, 85%, 45%, 0.1)
 }
 
-.visual > .summary-name > h4 {
-    color:  hsl(234, 85%, 45%)
+.visual>.summary-name>h4 {
+    color: hsl(234, 85%, 45%)
 }
 
 
@@ -173,16 +173,16 @@ body {
     margin-right: 10px;
 }
 
-.score > h4{
+.score>h4 {
     margin-right: 10px;
 }
 
-h4.max-score{
+h4.max-score {
     color: rgb(150, 150, 150);
 }
 
 
-button{
+button {
     border: none;
     border-radius: 25px;
 
@@ -200,24 +200,82 @@ button{
     margin: 30px 0 50px 0;
 }
 
-button:hover{
+button:hover {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-button:focus{
+button:focus {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px) {
     .container {
-        display: flex;
+
         flex-direction: column;
         height: 1000px;
         width: 350px;
-        margin: auto;
 
-        /* box-shadow: 20px 80px 150px rgb(180, 180, 180); */
-        border-radius: 30px;
-    
+        margin-top: 0;
+        box-shadow: 0px 0px 0px;
+        border-radius: 0px;
+
     }
+
+    .left-side-card {
+        height: 350px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+
+    }
+
+    .circle {
+        height: 150px;
+        width: 150px;
+    }
+
+    .circle>h1 {
+        font-size: 4rem;
+        margin: 10px 0 -5px 0;
+    }
+
+    .left-side-card p {
+
+        font-size: 16px;
+
+    }
+
+    .left-side-card>h2 {
+        font-size: 24px;
+        margin: 20px 0 0 0;
+    }
+
+    .left-side-card>p {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 30px 30px 30px;
+    }
+
+    .right-side-card {
+        height: 450px;
+        
+    }
+
+    .right-side-card>h3 {
+
+        font-size: 22px;
+        margin: 20px 210px 10px 0;
+
+    }
+
+    .summary-field {
+        width: 90%;
+
+    }
+
+    button {
+
+        width: 90%;
+        margin: 10px 0 50px 0;
+    }
+
 }
