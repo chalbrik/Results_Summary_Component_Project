@@ -208,7 +208,7 @@ button:focus {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     .container {
 
         flex-direction: column;
