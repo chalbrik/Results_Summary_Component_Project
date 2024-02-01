@@ -102,7 +102,7 @@ body {
     margin: 20px 140px 20px 0;
 }
 
-.right-side-card h4 {
+.right-side-card h3 {
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -127,7 +127,7 @@ body {
 
 }
 
-.reaction>.summary-name>h4 {
+.reaction>.summary-name>h3 {
     color: hsl(0, 100%, 67%);
 
 }
@@ -136,7 +136,7 @@ body {
     background-color: hsla(39, 100%, 56%, 0.1);
 }
 
-.memory>.summary-name>h4 {
+.memory>.summary-name>h3 {
     color: hsla(39, 100%, 56%);
 
 }
@@ -145,7 +145,7 @@ body {
     background-color: hsl(166, 100%, 37%, 0.1);
 }
 
-.verbal>.summary-name>h4 {
+.verbal>.summary-name>h3 {
     color: hsl(166, 100%, 37%);
 
 }
@@ -154,7 +154,7 @@ body {
     background-color: hsl(234, 85%, 45%, 0.1)
 }
 
-.visual>.summary-name>h4 {
+.visual>.summary-name>h3 {
     color: hsl(234, 85%, 45%)
 }
 
@@ -173,11 +173,11 @@ body {
     margin-right: 10px;
 }
 
-.score>h4 {
+.score>h3 {
     margin-right: 10px;
 }
 
-h4.max-score {
+h3.max-score {
     color: rgb(150, 150, 150);
 }
 
@@ -260,7 +260,7 @@ button:focus {
         
     }
 
-    .right-side-card>h3 {
+    .right-side-card>h2 {
 
         font-size: 22px;
         margin: 20px 210px 10px 0;
