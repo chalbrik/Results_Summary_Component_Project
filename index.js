@@ -40,7 +40,7 @@ const jsonData = [
       iconImg.src = dataItem.icon;
       iconImg.alt = `${dataItem.category} icon`;
 
-      const categoryName = document.createElement("h4"); // Dodaje nazwę kategorii
+      const categoryName = document.createElement("h3"); // Dodaje nazwę kategorii
       categoryName.textContent = dataItem.category;
 
       //dodaje ikonę oraz nazwę do kontenera summaryName
@@ -53,11 +53,11 @@ const jsonData = [
       summaryScore.className = "summary-data score";
 
       //dodaje wynik
-      const score = document.createElement("h4");
+      const score = document.createElement("h3");
       score.textContent = dataItem.score;
 
       // dodaje / 100
-      const maxScore = document.createElement("h4");
+      const maxScore = document.createElement("h3");
       maxScore.className = "max-score";
       maxScore.textContent = "/ 100";
 
